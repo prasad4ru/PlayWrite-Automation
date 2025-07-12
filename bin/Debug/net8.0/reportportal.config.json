@@ -1,0 +1,34 @@
+{  
+  "enabled": true,
+  "server": {
+    "url": "http://localhost:8080/api/v1",
+    "project": "fm_pilot2",
+    "authentication": {
+      "uuid": "FMPILOT2_5_Sd48eDRl2F-e1i7Ek5vnNbrTPWGSlZhVsqIoN4WiS4G_xJ79bNPrnAqtaq5oUk"
+    }
+  },
+  "launch": {
+    "name": "FM Pilot2 Login Test Run",
+    "description": "BDD tests using Reqnroll with Playwright",
+    "attributes": [
+      {
+        "key": "framework",
+        "value": "Reqnroll"
+      },
+      {
+        "key": "app",
+        "value": "fmpilot2"
+      },
+      {
+        "key": "env",
+        "value": "local"
+      },
+      {
+        "value": "regression"
+      }
+    ],
+    "startTime": "2025-07-12T10:00:00.000Z",
+    "mode": "DEFAULT"
+  }
+
+}
